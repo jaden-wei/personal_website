@@ -1,0 +1,62 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact-form {
+  width: 80%;
+  height: 80%;
+}
+
+.contact-form-title {
+  font-size: 2.5rem;
+}
+
+.contact-form-description {
+  font-size: 1.15rem;
+}
+
+.contact-form-text {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  padding: 20px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: rgb(247, 247, 245);
+  transition: 0.5s;
+}
+
+.contact-form-text:focus {
+  box-shadow: -6px 9px 9px -6px rgb(223, 167, 167);
+}
+
+textarea.contact-form-text {
+  resize: none;
+  height: 12vh;
+}
+
+.contact-form-btn {
+  padding: 10px 30px;
+  font-size: 2vh;
+}
+
+@media (max-width: 800px) {
+  .contact-form {
+    width: 95%;
+    height: 95%;
+  }
+
+  .contact-form-title {
+    font-size: 1.5rem;
+  }
+
+  .contact-form-btn {
+    padding: 8px 20px;
+    font-size: 1.2vh;
+  }
+}
