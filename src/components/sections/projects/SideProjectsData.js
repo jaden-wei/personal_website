@@ -7,13 +7,6 @@ const SideProjectsData = [
     github: "https://github.com/jwee789/doge-script",
   },
   {
-    name: "Chess.com Data",
-    tools: "React, Bootstrap, Axios, Express",
-    description:
-      "Web application using Chess.com API to display data about a specific user.",
-    github: "https://github.com/jwee789/chess-data",
-  },
-  {
     name: "Live Chat App",
     tools: "React, Express, Socket IO",
     description:
