@@ -1,0 +1,52 @@
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fdfbfb
+}
+
+/* GLOBAL STYLES */
+
+.animated-page {
+    width: 100%;
+}
+
+.animated-btn {
+  max-width: 18%;
+  margin-top: 1.5vh;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 1.6vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background: transparent;
+  color: rgb(65, 65, 65) !important;
+  border: 3px solid rgb(253, 150, 112);
+  text-decoration: none !important;
+  text-transform: uppercase;
+
+  background-image: linear-gradient(45deg, rgb(253, 150, 112) 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 500ms ease-in-out;
+}
+
+.animated-btn:hover {
+  background-position: 0;
+}
+
+@media (max-width: 800px) {
+  .animated-btn {
+    min-width: 40%;
+    font-size: 1.2vh;
+  }
+}
