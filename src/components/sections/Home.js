@@ -16,7 +16,7 @@ function Home() {
               I am a computer science student at Purdue Univeristy who loves to
               learn and create projects with Javascript, Python, and Java.
             </p>
-            <p>Drag the model on the right!</p>
+            <p>Try dragging around the model on the right!</p>
             <Link
               className="animated-btn"
               activeClass="active"
