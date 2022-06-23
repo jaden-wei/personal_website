@@ -48,4 +48,8 @@ canvas {
   .intro-paragraph {
     width: 100%;
   }
+
+  .model-container {
+    display: none;
+  }
 }
