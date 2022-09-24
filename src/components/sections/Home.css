@@ -13,15 +13,15 @@
 
 .intro-name {
   font-size: 3rem;
-}
-
-.intro-heading {
-  font-size: 2.5rem;
-  color: rgb(78, 78, 78);
+  margin-bottom: 4vh;
 }
 
 .intro-paragraph {
   width: 50%;
+}
+
+.model-desc {
+  font-size: 12px;
 }
 
 .model-container {

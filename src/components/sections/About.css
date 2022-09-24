@@ -2,23 +2,26 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  height: 110vh;
 }
 
-.about-container {
+.journey-container {
   height: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
 }
 
-.about-title {
+.journey-title {
   font-size: 3rem;
-  margin-bottom: 3vh;
+  margin-bottom: 3rem;
 }
 
-.about-hobbies,
-.about-coding {
-  width: 70%;
+.exp-header {
+  font-weight: bold;
+}
+
+.exp-list {
+  font-size: 14px;
 }
 
 @media (max-width: 800px) {

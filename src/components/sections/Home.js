@@ -11,12 +11,14 @@ function Home() {
         <div className="section-container home-section">
           <div className="intro-container" data-aos="fade-right">
             <h1 className="intro-name">Hello! My name is Jaden Wei.</h1>
-            <h1 className="intro-heading">I like writing code.</h1>
             <p className="intro-paragraph">
-              I am a computer science student at Purdue Univeristy who loves to
-              learn and create projects with Javascript, Python, and Java.
+              I am a student at Purdue studying computer science and math. My
+              hobbies include bouldering, snowboarding, and playing tennis. I
+              also play valorant and chess when I have the time.
             </p>
-            <p>Try dragging around the model on the right! (Desktop Only)</p>
+            <p className="model-desc">
+              Try dragging around the model on the right! (Desktop Only)
+            </p>
             <Link
               className="animated-btn"
               activeClass="active"
