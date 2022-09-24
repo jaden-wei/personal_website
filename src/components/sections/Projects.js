@@ -13,17 +13,21 @@ function Projects() {
       <div className="section-container projects-section" data-aos="fade-right">
         <h1 className="projects-section-title">My Projects</h1>
         <div className="main-projects-container">
-          <div className="project krypto">
-            <Krypto />
+          <div className="project bot">
+            <Bot2048 />
             <div className="project-description">
-              <a href="https://krypto.netlify.app/">Krypto</a>
-              <p>Tools: React JS, Chart JS, React Bootstrap</p>
+              <a href="https://play2048.co/">2048 Bot</a>
               <p>
-                Description: A cryptocurrency website displaying the top
-                cryptocurrencies in a simple table. See how the prices have
-                changed in the interactive graphs created with Chart JS.
+                Tools: Python, Selenium, OpenCV, Numpy, Pillow, ImageGrab,
+                Multiprocessing
               </p>
-              <a href="https://github.com/jwee789/crypto-app">
+              <p>
+                Description: Python AI that opens up the 2048 game on Google
+                Chrome. I implemented a Monte-Carlo algorithm and the program
+                gets tiles of 2048 with occasional 4096 tiles. Multiprocessing
+                was incorporated to speed up the program.
+              </p>
+              <a href="https://github.com/jwee789/2048-bot">
                 <AiFillGithub className="github-icon" />
               </a>
             </div>
@@ -46,21 +50,17 @@ function Projects() {
               </a>
             </div>
           </div>
-          <div className="project bot">
-            <Bot2048 />
+          <div className="project krypto">
+            <Krypto />
             <div className="project-description">
-              <a href="https://play2048.co/">2048 Bot</a>
+              <a href="https://krypto.netlify.app/">Krypto</a>
+              <p>Tools: React JS, Chart JS, React Bootstrap</p>
               <p>
-                Tools: Python, Selenium, OpenCV, Numpy, Pillow, ImageGrab,
-                Multiprocessing
+                Description: A cryptocurrency website displaying the top
+                cryptocurrencies in a simple table. See how the prices have
+                changed in the interactive graphs created with Chart JS.
               </p>
-              <p>
-                Description: Python AI that opens up the 2048 game on Google
-                Chrome. I implemented a Monte-Carlo algorithm and the program
-                gets tiles of 2048 with occasional 4096 tiles. Multiprocessing
-                was incorporated to speed up the program.
-              </p>
-              <a href="https://github.com/jwee789/2048-bot">
+              <a href="https://github.com/jwee789/crypto-app">
                 <AiFillGithub className="github-icon" />
               </a>
             </div>
