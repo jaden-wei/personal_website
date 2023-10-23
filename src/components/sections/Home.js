@@ -12,9 +12,7 @@ function Home() {
           <div className="intro-container" data-aos="fade-right">
             <h1 className="intro-name">Hello! My name is Jaden Wei.</h1>
             <p className="intro-paragraph">
-              I am a student at Purdue studying computer science and math. My
-              hobbies include bouldering, snowboarding, and playing tennis. I
-              also play valorant and chess when I have the time.
+              I am a student at Purdue studying computer science and math, and I'm currently looking for internships and full time opportunities. 
             </p>
             <p className="model-desc">
               Try dragging around the model on the right! (Desktop Only)

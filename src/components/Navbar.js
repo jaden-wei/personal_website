@@ -70,7 +70,7 @@ function Navbar() {
               >
                 Contact
               </Link>
-              <a href="https://www.linkedin.com/in/jaden-wei-437848199/">
+              <a href="https://www.linkedin.com/in/jaden-wei/">
                 LinkedIn
               </a>
             </div>
@@ -122,7 +122,7 @@ function Navbar() {
           >
             Contact
           </Link>
-          <a href="https://www.linkedin.com/in/jaden-wei-437848199/">
+          <a href="https://www.linkedin.com/in/jaden-wei/">
             LinkedIn
           </a>
         </div>
