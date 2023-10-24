@@ -10,6 +10,14 @@ function About() {
         <div className="journey-container" data-aos="fade-right">
           <h1 className="journey-title">My Journey</h1>
           <p className="exp-header">
+            Purdue University - B.S. in Computer Science (August 2021 - Present)
+          </p>
+          <ul className="exp-list">
+            <li>Minor in Mathematics</li>
+            <li>GPA: 3.64</li>
+            <li>Awards: Dean's list, Semester Honors</li>
+          </ul>
+          <p className="exp-header">
             Roblox - Incoming Software Engineer Intern (May 2023 - August 2023)
           </p>
           <ul className="exp-list">
@@ -26,7 +34,7 @@ function About() {
             <li>Developed scripts to construct graphs using Pandas and Matplotlib, enabling concise visualizations of query times with specific hardware specifications</li>
           </ul>
           <p className="exp-header">
-            Purdue - Research Intern (August 2022 - December 2022)
+            Purdue Discovery Undergraduate Interdisciplinary Research - Research Intern (August 2022 - December 2022)
           </p>
           <ul className="exp-list">
           <li>Generated datasets for testing by taking snapshots of online UAV videos of natural disasters</li>
