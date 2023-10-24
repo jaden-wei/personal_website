@@ -10,8 +10,13 @@ function About() {
         <div className="journey-container" data-aos="fade-right">
           <h1 className="journey-title">My Journey</h1>
           <p className="exp-header">
-            Purdue University - B.S. in Computer Science & Minor in Mathematics (August 2021 - Present)
+            Purdue University - B.S. in Computer Science (August 2021 - Present)
           </p>
+          <ul className="exp-list">
+            <li>Minor in Mathematics</li>
+            <li>GPA: 3.64</li>
+            <li>Awards: Dean's list, Semester Honors</li>
+          </ul>
           <p className="exp-header">
             Roblox - Incoming Software Engineer Intern (May 2023 - August 2023)
           </p>
