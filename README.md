@@ -1,1 +1,1 @@
-[jadenwei.com](jadenwei.com)
+jadenwei.com
